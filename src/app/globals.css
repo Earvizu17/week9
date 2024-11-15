@@ -27,3 +27,9 @@ h1 {
 .panel {
   @apply bg-secondary
 }
+
+@layer components {
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+}
